@@ -55,3 +55,63 @@ header {
 .wingbone {
   width: 380px;
   margin: 62px 0 0 15px; }
+
+.buttons {
+  width: 70px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 10px 0 0 0; }
+
+.belowbuttondiv {
+  width: 1000px;
+  height: 370px;
+  margin: 0 auto; }
+
+h3 {
+  padding: 0 0 0 28px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 150%;
+  font-weight: 400;
+  color: #494949; }
+
+h4 {
+  padding: 0 0 0 28px;
+  color: #C1C1C1;
+  font-weight: lighter; }
+
+p {
+  padding: 0 20px 0 28px;
+  color: #5E5C5D; }
+
+h5 {
+  color: #C05253;
+  text-transform: uppercase;
+  padding: 0 0 0 110px;
+  font-size: 90%;
+  font-weight: 800;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+.discriptiondiv1 {
+  width: 325px;
+  height: 340px;
+  background-color: #FDFDFD;
+  float: left;
+  margin: 0 12.3px 0 0; }
+
+.discriptiondiv2 {
+  width: 325px;
+  height: 340px;
+  background-color: #FDFDFD;
+  float: left;
+  margin: 0 12.3px 0 0; }
+
+.discriptiondiv3 {
+  width: 325px;
+  height: 340px;
+  background-color: #FDFDFD;
+  float: left;
+  margin: 0 12.3px 0 0;
+  margin: 0; }
