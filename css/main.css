@@ -6,42 +6,34 @@ body {
 header {
   width: 1000px;
   height: 200px;
-  background-color: black;
-  margin: 0 auto; }
+  background-color: none;
+  margin: 0 auto;
+  border: 1px solid black; }
   header .headerbox1 {
     width: 200px;
     height: 45px;
     float: left;
-    margin: 0 50px 0 0;
+    margin: 140px 66.5px 0 0;
     background-color: #b4292e; }
-    header .headerbox1 headerbox4 {
-      margin: 0px; }
   header .headerbox2 {
     width: 200px;
     height: 45px;
     float: left;
-    margin: 0 50px 0 0;
+    margin: 140px 66.5px 0 0;
     background-color: #b4292e; }
-    header .headerbox2 headerbox4 {
-      margin: 0px; }
   header .headerbox3 {
     width: 200px;
     height: 45px;
     float: left;
-    margin: 0 50px 0 0;
+    margin: 140px 66.5px 0 0;
     background-color: #b4292e; }
-    header .headerbox3 headerbox4 {
-      margin: 0px; }
   header .headerbox4 {
-    margin: 0 0 0 0; }
-    header .headerbox4 {
-      width: 200px;
-      height: 45px;
-      float: left;
-      margin: 0 50px 0 0;
-      background-color: #b4292e; }
-      header .headerbox4 headerbox4 {
-        margin: 0px; }
+    width: 200px;
+    height: 45px;
+    float: left;
+    margin: 140px 66.5px 0 0;
+    background-color: #b4292e;
+    margin: 140px 0 0 0; }
   header h2 {
     color: white;
     text-align: center;

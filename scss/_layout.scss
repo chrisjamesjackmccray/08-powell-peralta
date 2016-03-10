@@ -7,24 +7,19 @@ body {
 }
 
 @mixin header-box {
-  & {
-    width: 200px;
-    height: 45px;
-    float: left;
-    margin: 0 50px 0 0;
-    background-color: #b4292e;
-
-    headerbox4 {
-      margin: 0px;
-    }
-  }
+  width: 200px;
+  height: 45px;
+  float: left;
+  margin: 140px 66.5px 0 0;
+  background-color: #b4292e;
 }
 
 header {
   width: 1000px;
   height: 200px;
-  background-color: black;
+  background-color: none;
   margin: 0 auto;
+  border: 1px solid black;
 
   .headerbox1 {
     @include header-box;
@@ -46,8 +41,7 @@ header {
 
   .headerbox4 {
     @include header-box;
-    margin: 0 0 0 0;
-
+    margin: 140px 0 0 0;
   }
 
   h2 {
