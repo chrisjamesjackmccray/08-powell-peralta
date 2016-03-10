@@ -37,4 +37,17 @@ header {
   header h2 {
     color: white;
     text-align: center;
-    margin: 5px 0 0 0; }
+    margin: 12px 0 0 0;
+    text-transform: uppercase;
+    font-size: 120%;
+    font-style: oblique; }
+
+.topimage {
+  width: 983px;
+  height: 400px;
+  background-color: white;
+  margin: 0 auto;
+  background-image: url("../images/top-image.png");
+  background-repeat: no-repeat;
+  background-position: 40% 30%;
+  border: 10px solid white; }
