@@ -1,5 +1,48 @@
-.body {
-  width: 2000px;
-  height: 2200px;
+body {
+  margin: 0 0 0 0;
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat; }
+
+header {
+  width: 1000px;
+  height: 200px;
+  background-color: black;
+  margin: 0 auto; }
+  header .headerbox1 {
+    width: 200px;
+    height: 45px;
+    float: left;
+    margin: 0 50px 0 0;
+    background-color: #b4292e; }
+    header .headerbox1 headerbox4 {
+      margin: 0px; }
+  header .headerbox2 {
+    width: 200px;
+    height: 45px;
+    float: left;
+    margin: 0 50px 0 0;
+    background-color: #b4292e; }
+    header .headerbox2 headerbox4 {
+      margin: 0px; }
+  header .headerbox3 {
+    width: 200px;
+    height: 45px;
+    float: left;
+    margin: 0 50px 0 0;
+    background-color: #b4292e; }
+    header .headerbox3 headerbox4 {
+      margin: 0px; }
+  header .headerbox4 {
+    margin: 0 0 0 0; }
+    header .headerbox4 {
+      width: 200px;
+      height: 45px;
+      float: left;
+      margin: 0 50px 0 0;
+      background-color: #b4292e; }
+      header .headerbox4 headerbox4 {
+        margin: 0px; }
+  header h2 {
+    color: white;
+    text-align: center;
+    margin: 5px 0 0 0; }

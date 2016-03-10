@@ -1,8 +1,58 @@
-.body {
-  width: 2000px;
-  height: 2200px;
+body {
+  margin: 0 0 0 0;
   background-image: url("../images/bg.jpg");
   background-repeat: no-repeat;
 
 
+}
+
+@mixin header-box {
+  & {
+    width: 200px;
+    height: 45px;
+    float: left;
+    margin: 0 50px 0 0;
+    background-color: #b4292e;
+
+    headerbox4 {
+      margin: 0px;
+    }
+  }
+}
+
+header {
+  width: 1000px;
+  height: 200px;
+  background-color: black;
+  margin: 0 auto;
+
+  .headerbox1 {
+    @include header-box;
+
+
+  }
+
+  .headerbox2 {
+    @include header-box;
+
+
+  }
+
+  .headerbox3 {
+    @include header-box;
+
+
+  }
+
+  .headerbox4 {
+    @include header-box;
+    margin: 0 0 0 0;
+
+  }
+
+  h2 {
+    color: white;
+    text-align: center;
+    margin: 5px 0 0 0;
+  }
 }
