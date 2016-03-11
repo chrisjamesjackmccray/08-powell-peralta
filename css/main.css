@@ -34,6 +34,14 @@ header {
     margin: 140px 66.5px 0 0;
     background-color: #b4292e;
     margin: 140px 0 0 0; }
+  header .headerbox1:hover {
+    background-color: #821416; }
+  header .headerbox2:hover {
+    background-color: #821416; }
+  header .headerbox3:hover {
+    background-color: #821416; }
+  header .headerbox4:hover {
+    background-color: #821416; }
   header h2 {
     color: white;
     text-align: center;
@@ -159,6 +167,42 @@ a {
   margin: 0 14px 14px 0;
   background-image: url("../images/sk8er-1.png"); }
 
+.pic1 p {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 185px 0 0 0; }
+
+.pic2 p {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 80px 0 0 25px; }
+
+.pic3 p {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 88px 0 0 0; }
+
+.pic4 p {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 70px 90px 0 0; }
+
 h6 {
   color: white; }
 
@@ -254,7 +298,7 @@ h6 {
 
 .low {
   width: 1000px;
-  height: 350px;
+  height: 340px;
   margin: 24px 0 0 220px;
   background-color: white; }
 
@@ -297,3 +341,6 @@ button {
   margin: 0 43px 0 0;
   background-color: #B4292E;
   color: white; }
+
+button:hover {
+  background-color: #821416; }
