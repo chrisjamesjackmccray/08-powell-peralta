@@ -129,3 +129,117 @@ h6 {
   overflow: auto;
   zoom: 1;
 }
+
+
+
+.skateboards {
+  width: 1000px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: white;
+
+}
+
+
+@mixin board{
+  width: 60px;
+  height: 270px;
+  float: left;
+  margin: 20px 0px 0 36px;
+}
+
+.board1 {
+  @include board;
+  background-image: url("../images/sk8-3.png");
+  background-repeat: no-repeat;
+}
+
+.board2 {
+  @include board;
+  background-image: url("../images/sk8-4.png");
+  background-repeat: no-repeat;
+
+}
+
+
+.board3 {
+  @include board;
+  background-image: url("../images/sk8-5.png");
+  background-repeat: no-repeat;
+}
+
+
+.board4 {
+  @include board;
+  background-image: url("../images/sk8-6.png");
+  background-repeat: no-repeat;
+
+}
+
+
+.board5 {
+  @include board;
+  background-image: url("../images/sk8-7.png");
+  background-repeat: no-repeat;
+}
+
+
+.board6 {
+  @include board;
+  background-image: url("../images/sk8-8.png");
+  background-repeat: no-repeat;
+}
+
+
+.board7 {
+  @include board;
+  background-image: url("../images/sk8-9.png");
+  background-repeat: no-repeat;
+}
+
+
+.board8 {
+  @include board;
+  background-image: url("../images/sk8-10.png");
+  background-repeat: no-repeat;
+}
+
+
+.board9 {
+  @include board;
+  background-image: url("../images/sk8-2.png");
+  background-repeat: no-repeat;
+}
+
+
+.board10 {
+  @include board;
+  background-image: url("../images/sk8-1.png");
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.low {
+  width: 1000px;
+  height: 300px;
+  margin: 24px 0 0 220px;
+  background-color: white;
+}
+
+.contactus {
+  width: 500px;
+  color: #7D7E7B;
+  font-size: 2rem;
+  padding: 25px 0 0 30px;
+}
