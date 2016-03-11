@@ -1,13 +1,18 @@
 .sub {
+  width: 100px;
   color: white;
   text-align: center;
-  margin: 30px 0 0 180px;
+  margin: 30px 0 0 550px;
   text-transform: uppercase; }
 
 .dot {
-  width: 20px;
-  height: 25px;
-  color: white; }
+  width: 10px;
+  height: 10px;
+  color: white;
+  text-align: center;
+  margin: -35px 0 0 100px;
+  font-size: 2em;
+  text-decoration: none; }
 
 body {
   margin: 0 0 0 0;
@@ -16,35 +21,34 @@ body {
 
 header {
   width: 1000px;
-  height: 150px;
+  height: 120px;
   background-color: none;
-  margin: 0 auto;
-  border: 1px solid black; }
+  margin: 0 auto; }
   header .headerbox1 {
     width: 200px;
     height: 45px;
     float: left;
-    margin: 20px 66.5px 0 0;
+    margin: 55px 66.5px 0 0;
     background-color: #b4292e; }
   header .headerbox2 {
     width: 200px;
     height: 45px;
     float: left;
-    margin: 20px 66.5px 0 0;
+    margin: 55px 66.5px 0 0;
     background-color: #b4292e; }
   header .headerbox3 {
     width: 200px;
     height: 45px;
     float: left;
-    margin: 20px 66.5px 0 0;
+    margin: 55px 66.5px 0 0;
     background-color: #b4292e; }
   header .headerbox4 {
     width: 200px;
     height: 45px;
     float: left;
-    margin: 20px 66.5px 0 0;
+    margin: 55px 66.5px 0 0;
     background-color: #b4292e;
-    margin: 20px 0 0 0; }
+    margin: 55px 0 0 0; }
   header h2 {
     color: white;
     text-align: center;

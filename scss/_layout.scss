@@ -10,17 +10,16 @@ body {
   width: 200px;
   height: 45px;
   float: left;
-  margin: 20px 66.5px 0 0;
+  margin: 55px 66.5px 0 0;
   background-color: #b4292e;
 }
 
 
 header {
   width: 1000px;
-  height: 150px;
+  height: 120px;
   background-color: none;
   margin: 0 auto;
-  border: 1px solid black;
 
   .headerbox1 {
     @include header-box;
@@ -42,7 +41,7 @@ header {
 
   .headerbox4 {
     @include header-box;
-    margin: 20px 0 0 0;
+    margin: 55px 0 0 0;
   }
 
 
