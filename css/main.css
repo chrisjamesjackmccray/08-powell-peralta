@@ -14,6 +14,12 @@
   font-size: 2em;
   text-decoration: none; }
 
+.left {
+  width: 150px;
+  float: left;
+  position: absolute;
+  margin: -1070px 0 0 60px; }
+
 body {
   margin: 0 0 0 0;
   background-image: url("../images/bg.jpg");
