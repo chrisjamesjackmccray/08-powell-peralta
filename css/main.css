@@ -1,3 +1,14 @@
+.sub {
+  color: white;
+  text-align: center;
+  margin: 30px 0 0 180px;
+  text-transform: uppercase; }
+
+.dot {
+  width: 20px;
+  height: 25px;
+  color: white; }
+
 body {
   margin: 0 0 0 0;
   background-image: url("../images/bg.jpg");
@@ -5,7 +16,7 @@ body {
 
 header {
   width: 1000px;
-  height: 200px;
+  height: 150px;
   background-color: none;
   margin: 0 auto;
   border: 1px solid black; }
@@ -13,35 +24,27 @@ header {
     width: 200px;
     height: 45px;
     float: left;
-    margin: 140px 66.5px 0 0;
+    margin: 20px 66.5px 0 0;
     background-color: #b4292e; }
   header .headerbox2 {
     width: 200px;
     height: 45px;
     float: left;
-    margin: 140px 66.5px 0 0;
+    margin: 20px 66.5px 0 0;
     background-color: #b4292e; }
   header .headerbox3 {
     width: 200px;
     height: 45px;
     float: left;
-    margin: 140px 66.5px 0 0;
+    margin: 20px 66.5px 0 0;
     background-color: #b4292e; }
   header .headerbox4 {
     width: 200px;
     height: 45px;
     float: left;
-    margin: 140px 66.5px 0 0;
+    margin: 20px 66.5px 0 0;
     background-color: #b4292e;
-    margin: 140px 0 0 0; }
-  header .headerbox1:hover {
-    background-color: #821416; }
-  header .headerbox2:hover {
-    background-color: #821416; }
-  header .headerbox3:hover {
-    background-color: #821416; }
-  header .headerbox4:hover {
-    background-color: #821416; }
+    margin: 20px 0 0 0; }
   header h2 {
     color: white;
     text-align: center;

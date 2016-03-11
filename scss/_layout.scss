@@ -10,14 +10,14 @@ body {
   width: 200px;
   height: 45px;
   float: left;
-  margin: 140px 66.5px 0 0;
+  margin: 20px 66.5px 0 0;
   background-color: #b4292e;
 }
 
 
 header {
   width: 1000px;
-  height: 200px;
+  height: 150px;
   background-color: none;
   margin: 0 auto;
   border: 1px solid black;
@@ -42,24 +42,10 @@ header {
 
   .headerbox4 {
     @include header-box;
-    margin: 140px 0 0 0;
+    margin: 20px 0 0 0;
   }
 
-  .headerbox1:hover {
-    background-color: #821416;
-  }
 
-  .headerbox2:hover {
-    background-color: #821416;
-  }
-
-  .headerbox3:hover {
-    background-color: #821416;
-  }
-
-  .headerbox4:hover {
-    background-color: #821416;
-  }
 
 
 
