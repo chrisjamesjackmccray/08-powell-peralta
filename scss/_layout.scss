@@ -8,16 +8,16 @@ body {
 
 @mixin header-box {
   width: 200px;
-  height: 45px;
+  height: 40px;
   float: left;
-  margin: 55px 66.5px 0 0;
+  margin: 45px 66.5px 0 0;
   background-color: #b4292e;
 }
 
 
 header {
   width: 1000px;
-  height: 120px;
+  height: 100px;
   background-color: none;
   margin: 0 auto;
 
@@ -41,7 +41,7 @@ header {
 
   .headerbox4 {
     @include header-box;
-    margin: 55px 0 0 0;
+    margin: 45px 0 0 0;
   }
 
 
@@ -51,7 +51,7 @@ header {
   h2 {
     color: white;
     text-align: center;
-    margin: 12px 0 0 0;
+    margin: 9px 0 0 0;
     text-transform: uppercase;
     font-size: 120%;
     font-style: oblique;
