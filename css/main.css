@@ -118,16 +118,50 @@ a {
 
 .gallary {
   width: 1000px;
-  height: 480px;
-  background-color: black;
+  height: 500px;
   margin: 0 auto; }
 
-.pic4 {
-  width: 330px;
+.pic1 {
+  width: 295px;
+  height: 464px;
+  border: 5px solid white;
+  background-position: 79% 0%;
+  float: right;
+  background-repeat: no-repeat;
+  background-image: url("../images/sk8er-2.png"); }
+
+.pic2 {
+  width: 316px;
   height: 230px;
   border: 5px solid white;
   background-position: 90% 40%;
+  float: left;
+  margin: 0 14px 14px 0;
   background-image: url("../images/sk8er-4.png"); }
+
+.pic3 {
+  width: 330px;
+  height: 230px;
+  border: 5px solid white;
+  background-position: 0% 40%;
+  float: left;
+  margin: 0 14px 14px 0;
+  background-image: url("../images/sk8er-3.png"); }
+
+.pic4 {
+  width: 670px;
+  height: 210.4px;
+  border: 5px solid white;
+  background-position: 0% 75%;
+  float: left;
+  background-repeat: no-repeat;
+  float: left;
+  margin: 0 14px 14px 0;
+  background-image: url("../images/sk8er-1.png"); }
 
 h6 {
   color: white; }
+
+.clearfix {
+  overflow: auto;
+  zoom: 1; }
