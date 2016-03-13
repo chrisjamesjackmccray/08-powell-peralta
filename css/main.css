@@ -31,8 +31,128 @@
   height: 50px;
   background-color: black;
   position: absolute;
-  margin: -15px 0 0 800px;
-  background-image: url("http://replinlawgroup.com/wp-content/uploads/2016/01/facebook.png"); }
+  margin: -15px 0 0 770px;
+  background-image: url("https://www.web-expert.gr/images/social/facebook.jpg"); }
+
+.rss {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin: -15px 0 0 830px;
+  background-image: url("https://www.web-expert.gr/images/social/rss.png"); }
+
+.twitter {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin: -15px 0 0 890px;
+  background-image: url("http://hollyshortall.com/images/icons/holly-shortall-twitter.png"); }
+
+.youtube {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin: -15px 0 0 950px;
+  background-image: url("http://lisayoungmusic.com/wp-content/uploads/2013/06/YouTube-50x50.png"); }
+
+.facebookfooter {
+  width: 50px;
+  height: 50px;
+  background-image: url("https://www.gamespsvitafree.net/Images/Common/Icons/facebook.png");
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 20px -23px 0 28px; }
+
+.rssfooter {
+  width: 50px;
+  height: 50px;
+  background-image: url("http://s2.q4cdn.com/998224677/files/design/rssicon.gif");
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 20px -23px 0 28px; }
+
+.twitterfooter {
+  width: 50px;
+  height: 50px;
+  background-image: url("http://flyavl.com/wp-content/themes/flyavl/library/images/icon-twitter-dark.png");
+  background-position: center;
+  background-position: 40% 30%;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 20px -23px 0 28px; }
+
+.youtubefooter {
+  width: 50px;
+  height: 50px;
+  background-image: url("http://www.rinmarugames.com/MM-images/youtube.png");
+  background-position: 40% 30%;
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 20px -23px 0 28px; }
+
+@media screen and (max-width: 1000px) {
+  .facebook {
+    display: block;
+    display: none; }
+  .rss {
+    display: block;
+    display: none; }
+  .twitter {
+    display: block;
+    display: none; }
+  .youtube {
+    display: block;
+    display: none; } }
+
+@media screen and (max-width: 1000px) {
+  .discriptiondiv3 {
+    display: block;
+    display: none; }
+  .discriptiondiv2 {
+    float: right; }
+  .pic1 {
+    display: block;
+    display: none; } }
+
+@media screen and (max-width: 1250px) {
+  .left {
+    display: block;
+    display: none; } }
+
+@media screen and (max-width: 1000px) {
+  .skateboards {
+    width: 800px;
+    height: 800px;
+    float: none;
+    margin: 0 auto; }
+  .board1 {
+    float: none; }
+  .board2 {
+    float: none; }
+  .board3 {
+    float: none; }
+  .board4 {
+    float: none; }
+  .board5 {
+    float: none; }
+  .board6 {
+    float: none; }
+  .board7 {
+    float: none; }
+  .board8 {
+    float: none; }
+  .board9 {
+    float: none; }
+  .board10 {
+    float: none; }
+  .discriptiondiv3 {
+    float: right; }
+  .topimage {
+    width: 100%; } }
 
 body {
   margin: 0 0 0 0;
@@ -326,7 +446,7 @@ h6 {
 .low {
   width: 1000px;
   height: 340px;
-  margin: 24px 0 0 220px;
+  margin: 0 auto;
   background-color: white; }
 
 .contactus {
