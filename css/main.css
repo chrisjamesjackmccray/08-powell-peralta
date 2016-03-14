@@ -94,7 +94,7 @@
   float: left;
   margin: 20px -23px 0 28px; }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
   .facebook {
     display: block;
     display: none; }
@@ -108,7 +108,7 @@
     display: block;
     display: none; } }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
   .discriptiondiv3 {
     display: block;
     display: none; }
@@ -123,7 +123,7 @@
     display: block;
     display: none; } }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1025px) {
   .skateboards {
     width: 800px;
     height: 800px;
@@ -150,9 +150,7 @@
   .board10 {
     float: none; }
   .discriptiondiv3 {
-    float: right; }
-  .topimage {
-    width: 100%; } }
+    float: right; } }
 
 body {
   margin: 0 0 0 0;
