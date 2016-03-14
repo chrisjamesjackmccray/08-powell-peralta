@@ -31,28 +31,28 @@
   height: 50px;
   background-color: black;
   position: absolute;
-  margin: -15px 0 0 770px;
+  margin: -10px 0 0 770px;
   background-image: url("https://www.web-expert.gr/images/social/facebook.jpg"); }
 
 .rss {
   width: 50px;
   height: 50px;
   position: absolute;
-  margin: -15px 0 0 830px;
+  margin: -10px 0 0 830px;
   background-image: url("https://www.web-expert.gr/images/social/rss.png"); }
 
 .twitter {
   width: 50px;
   height: 50px;
   position: absolute;
-  margin: -15px 0 0 890px;
+  margin: -10px 0 0 890px;
   background-image: url("http://hollyshortall.com/images/icons/holly-shortall-twitter.png"); }
 
 .youtube {
   width: 50px;
   height: 50px;
   position: absolute;
-  margin: -15px 0 0 950px;
+  margin: -10px 0 0 950px;
   background-image: url("http://lisayoungmusic.com/wp-content/uploads/2013/06/YouTube-50x50.png"); }
 
 .facebookfooter {
@@ -94,6 +94,10 @@
   float: left;
   margin: 20px -23px 0 28px; }
 
+@media screen and (max-width: 900px) {
+  .discriptiondiv3 {
+    display: none; } }
+
 body {
   margin: 0 0 0 0;
   background-image: url("../images/bg.jpg");
@@ -101,38 +105,38 @@ body {
 
 header {
   width: 1000px;
-  height: 115px;
+  height: 100px;
   background-color: none;
   margin: 0 auto; }
   header .headerbox1 {
     width: 200px;
-    height: 40px;
+    height: 45px;
     float: left;
-    margin: 60px 66.5px 0 0;
+    margin: 45px 66.5px 0 0;
     background-color: #b4292e; }
   header .headerbox2 {
     width: 200px;
-    height: 40px;
+    height: 45px;
     float: left;
-    margin: 60px 66.5px 0 0;
+    margin: 45px 66.5px 0 0;
     background-color: #b4292e; }
   header .headerbox3 {
     width: 200px;
-    height: 40px;
+    height: 45px;
     float: left;
-    margin: 60px 66.5px 0 0;
+    margin: 45px 66.5px 0 0;
     background-color: #b4292e; }
   header .headerbox4 {
     width: 200px;
-    height: 40px;
+    height: 45px;
     float: left;
-    margin: 60px 66.5px 0 0;
+    margin: 45px 66.5px 0 0;
     background-color: #b4292e;
-    margin: 60px 0 0 0; }
+    margin: 45px 0 0 0; }
   header h2 {
     color: white;
     text-align: center;
-    margin: 9px 0 0 0;
+    margin: 12px 0 0 0;
     text-transform: uppercase;
     font-size: 120%;
     font-style: oblique; }
