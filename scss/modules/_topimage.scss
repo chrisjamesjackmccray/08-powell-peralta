@@ -17,22 +17,22 @@
   .sk8tnews {
     @include allbuttons;
     margin-left: 0;
-    background-color: chartreuse;
+    background-color: #B4292E;
   }
 
   .skateboards {
     @include allbuttons;
-    background-color: yellow;
+    background-color: #B4292E;
   }
 
   .boarddesign {
     @include allbuttons;
-    background-color: black;
+    background-color: #B4292E;
   }
 
   .contactus {
     @include allbuttons;
-    background-color: grey;
+    background-color: #B4292E;
   }
 }
 

@@ -10,7 +10,7 @@ body {
 .header {
   width: 100%;
   height: 50px;
-  background-color: black; }
+  background-color: none; }
   .header .subscribe {
     float: left;
     margin: 0;
@@ -36,7 +36,7 @@ body {
 .socialmedia {
   width: 205px;
   height: 50px;
-  background-color: crimson;
+  background-color: none;
   float: right; }
   .socialmedia .dotsdiv {
     margin-top: 5px;
@@ -93,28 +93,28 @@ body {
     color: blue;
     margin-left: 10px;
     margin-left: 0;
-    background-color: chartreuse; }
+    background-color: #B4292E; }
   .topbuttonsholder .skateboards {
     width: calc(25% - 7.5px);
     height: 50px;
     float: left;
     color: blue;
     margin-left: 10px;
-    background-color: yellow; }
+    background-color: #B4292E; }
   .topbuttonsholder .boarddesign {
     width: calc(25% - 7.5px);
     height: 50px;
     float: left;
     color: blue;
     margin-left: 10px;
-    background-color: black; }
+    background-color: #B4292E; }
   .topbuttonsholder .contactus {
     width: calc(25% - 7.5px);
     height: 50px;
     float: left;
     color: blue;
     margin-left: 10px;
-    background-color: grey; }
+    background-color: #B4292E; }
 
 .topimage {
   margin-top: 20px;
@@ -227,7 +227,7 @@ body {
 
 .skatefaceholder {
   width: 100%;
-  height: 800px;
+  height: 500px;
   border: 5px solid none; }
 
 .lance {
@@ -235,18 +235,20 @@ body {
   height: 240px;
   background-image: url("./assets/sk8er-4.png");
   background-repeat: no-repeat;
-  background-position: 80% 22%;
+  background-position: 37% 22%;
   border: 5px solid none;
   float: left;
-  margin-right: 5px; }
+  margin-bottom: 10px;
+  margin-right: 1%; }
   @media screen and (min-width: 780px) {
     .lance {
       float: left;
       width: 33.33%;
+      background-position: 80% 22%;
       border: 5px solid white; } }
 
 .rodney {
-  width: 33.33%;
+  width: 100%;
   height: 240px;
   background-image: url("./assets/sk8er-3.png");
   background-repeat: no-repeat;
@@ -254,7 +256,19 @@ body {
   @media screen and (min-width: 780px) {
     .rodney {
       float: left;
+      width: calc(33.33% - 3px);
       border: 5px solid white; } }
+
+@media screen and (min-width: 780px) {
+  .tommy {
+    background-repeat: no-repeat;
+    float: right;
+    width: 28.33%;
+    height: 464px;
+    background-position: 80% 22%;
+    border: 5px solid white;
+    margin-left: .5%;
+    background-image: url("./assets/sk8er-2.png"); } }
 
 .clearfix {
   overflow: hidden;
