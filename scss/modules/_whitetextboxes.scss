@@ -12,6 +12,7 @@
   height: 320px;
   background-color: white;
   padding: 20px;
+  overflow-y: scroll;
 
   .boxonehead {
     color: #676863;
@@ -28,20 +29,29 @@
   }
 
 
-  .readmore {
+  .readmoretony {
     color: #B02A34;
     text-transform: uppercase;
     text-align: center;
+  }
+
+  @media screen and (min-width: 640px) {
+    width: 40%;
+    float: left;
+    margin-right: 50px;
   }
 
 
 }
 
 .phonedivtwo {
+  padding-top: 0;
   margin-top: 20px;
-  width: 100%;
-  height: 320px;
+  width: calc(100% - 40px);
+  height: 335px;
   background-color: white;
+  padding: 20px;
+  overflow-y: scroll;
 
   .boxtwohead {
     color: #676863;
@@ -56,13 +66,29 @@
     color: #989898;
 
   }
+
+  .readmorerodney {
+    margin-top: 0;
+    color: #B02A34;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 640px) {
+    width: 40%;
+    float: left;
+  }
 }
 
 .phonedivthree {
+  padding-top: 0;
   margin-top: 20px;
-  width: 100%;
-  height: 320px;
+  width: calc(100% - 40px);
+  height: 305px;
   background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
 
   .boxthreehead {
     color: #676863;
@@ -77,4 +103,12 @@
     color: #989898;
 
   }
+
+  .readmoreray {
+    color: #B02A34;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+
 }
