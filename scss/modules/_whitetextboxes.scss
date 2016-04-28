@@ -1,20 +1,80 @@
+.checkboxes {
+  margin: 0 auto;
+  padding-top: -10;
+  width: 80px;
+  height: 20px;
+}
+
 .phonediv {
+  padding-top: 0;
   margin-top: 20px;
-  width: 100%;
-  height: 200px;
-  background-color: crimson;
+  width: calc(100% - 40px);
+  height: 320px;
+  background-color: white;
+  padding: 20px;
+
+  .boxonehead {
+    color: #676863;
+
+  }
+
+  .boxonedate {
+    color: #CCCCCC;
+  }
+
+  .boxonedescription {
+    color: #989898;
+
+  }
+
+
+  .readmore {
+    color: #B02A34;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+
 }
 
 .phonedivtwo {
   margin-top: 20px;
   width: 100%;
-  height: 200px;
-  background-color: crimson;
+  height: 320px;
+  background-color: white;
+
+  .boxtwohead {
+    color: #676863;
+
+  }
+
+  .boxtwodate {
+    color: #CCCCCC;
+  }
+
+  .boxtwodescription {
+    color: #989898;
+
+  }
 }
 
 .phonedivthree {
   margin-top: 20px;
   width: 100%;
-  height: 200px;
-  background-color: crimson;
+  height: 320px;
+  background-color: white;
+
+  .boxthreehead {
+    color: #676863;
+
+  }
+
+  .boxthreedate {
+    color: #CCCCCC;
+  }
+
+  .boxthreedescription {
+    color: #989898;
+
+  }
 }
