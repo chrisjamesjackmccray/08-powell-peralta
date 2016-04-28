@@ -168,11 +168,11 @@ body {
     color: #B02A34;
     text-transform: uppercase;
     text-align: center; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 780px) {
     .phonediv {
-      width: 40%;
+      width: 28%;
       float: left;
-      margin-right: 50px; } }
+      margin-right: 2%; } }
 
 .phonedivtwo {
   padding-top: 0;
@@ -193,10 +193,12 @@ body {
     color: #B02A34;
     text-transform: uppercase;
     text-align: center; }
-  @media screen and (min-width: 640px) {
+  @media screen and (min-width: 780px) {
     .phonedivtwo {
-      width: 40%;
-      float: left; } }
+      width: 28%;
+      height: 320px;
+      float: left;
+      margin-right: 2%; } }
 
 .phonedivthree {
   padding-top: 0;
@@ -217,6 +219,11 @@ body {
     color: #B02A34;
     text-transform: uppercase;
     text-align: center; }
+  @media screen and (min-width: 780px) {
+    .phonedivthree {
+      height: 320px;
+      width: 28%;
+      float: left; } }
 
 .clearfix {
   overflow: hidden;
