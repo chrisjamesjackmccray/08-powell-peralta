@@ -80,3 +80,55 @@ body {
     margin-left: 5px;
     margin-top: 5px;
     background-image: url("http://www.lancecamper.com/images/facebook.png"); }
+
+.topbuttonsholder {
+  width: 98.2%;
+  height: 60px;
+  margin-top: 20px;
+  background-color: red; }
+  .topbuttonsholder .sk8tnews {
+    width: calc(25% - 7.5px);
+    height: 50px;
+    float: left;
+    color: blue;
+    margin-left: 10px;
+    margin-left: 0;
+    background-color: chartreuse; }
+  .topbuttonsholder .skateboards {
+    width: calc(25% - 7.5px);
+    height: 50px;
+    float: left;
+    color: blue;
+    margin-left: 10px;
+    background-color: yellow; }
+  .topbuttonsholder .boarddesign {
+    width: calc(25% - 7.5px);
+    height: 50px;
+    float: left;
+    color: blue;
+    margin-left: 10px;
+    background-color: black; }
+  .topbuttonsholder .contactus {
+    width: calc(25% - 7.5px);
+    height: 50px;
+    float: left;
+    color: blue;
+    margin-left: 10px;
+    background-color: grey; }
+
+.topimage {
+  margin-top: 20px;
+  border: 10px solid white;
+  width: 100%;
+  height: 150px;
+  background-image: url("./assets/top-image.png");
+  background-repeat: no-repeat;
+  background-position: 37% 26%; }
+  @media screen and (min-width: 640px) {
+    .topimage {
+      height: 300px;
+      background-position: 37% 26%; } }
+
+.clearfix {
+  overflow: hidden;
+  zoom: 1; }
