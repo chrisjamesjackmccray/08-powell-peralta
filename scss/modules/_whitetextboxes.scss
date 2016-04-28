@@ -41,9 +41,9 @@
   // }
 
   @media screen and (min-width: 780px) {
-    width: 28%;
+    width: calc(33.3% - 46px);
     float: left;
-    margin-right: 2%;
+    margin-right: 9px;
   }
 }
 
@@ -78,10 +78,10 @@
   }
 
   @media screen and (min-width: 780px) {
-    width: 28%;
+    width: calc(33.3% - 46px);
     height: 320px;
     float: left;
-    margin-right: 2%;
+    margin-right: 9px;
   }
 }
 
@@ -117,7 +117,7 @@
 
   @media screen and (min-width: 780px) {
     height: 320px;
-    width: 28%;
+    width: calc(33.3% - 46px);
     float: left;
   }
 

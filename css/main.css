@@ -170,9 +170,9 @@ body {
     text-align: center; }
   @media screen and (min-width: 780px) {
     .phonediv {
-      width: 28%;
+      width: calc(33.3% - 46px);
       float: left;
-      margin-right: 2%; } }
+      margin-right: 9px; } }
 
 .phonedivtwo {
   padding-top: 0;
@@ -195,10 +195,10 @@ body {
     text-align: center; }
   @media screen and (min-width: 780px) {
     .phonedivtwo {
-      width: 28%;
+      width: calc(33.3% - 46px);
       height: 320px;
       float: left;
-      margin-right: 2%; } }
+      margin-right: 9px; } }
 
 .phonedivthree {
   padding-top: 0;
@@ -222,7 +222,7 @@ body {
   @media screen and (min-width: 780px) {
     .phonedivthree {
       height: 320px;
-      width: 28%;
+      width: calc(33.3% - 46px);
       float: left; } }
 
 .clearfix {
