@@ -158,3 +158,28 @@
     }
   }
 }
+
+.leftbutton {
+  float: left;
+  margin-top: 10px;
+  margin-left: 2%;
+  color: white;
+  background-color: #B4292E;
+  width: 10%;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 120%;
+  display: none;
+
+  @media screen and (min-width: 1358px) {
+    display: block;
+  }
+}
+
+
+
+.leftbutton:hover {
+  background-color: #932024;
+}
