@@ -83,17 +83,22 @@ body {
 
 .topbuttonsholder {
   width: 100%;
-  height: 50px;
   margin-top: 20px;
   background-color: none; }
   .topbuttonsholder .sk8tnews {
-    width: calc(25% - 7.5px);
     height: 50px;
-    float: left;
     color: blue;
     margin-left: 10px;
+    float: left;
+    width: calc(50% - 5px);
     margin-left: 0;
     background-color: #B4292E; }
+    @media screen and (min-width: 918px) {
+      .topbuttonsholder .sk8tnews {
+        width: calc(25% - 7.5px); } }
+    @media screen and (max-width: 454px) {
+      .topbuttonsholder .sk8tnews span {
+        display: none; } }
     .topbuttonsholder .sk8tnews .skatenews {
       color: white;
       text-align: center;
@@ -105,38 +110,45 @@ body {
   .topbuttonsholder .sk8tnews:hover {
     background-color: #932024; }
   .topbuttonsholder .skateboards {
-    width: calc(25% - 7.5px);
     height: 50px;
-    float: left;
     color: blue;
     margin-left: 10px;
+    float: left;
+    width: calc(50% - 5px);
     background-color: #B4292E; }
+    @media screen and (min-width: 918px) {
+      .topbuttonsholder .skateboards {
+        width: calc(25% - 7.5px); } }
+    @media screen and (max-width: 454px) {
+      .topbuttonsholder .skateboards span {
+        display: none; } }
     .topbuttonsholder .skateboards .skateboardtopbutton {
       color: white;
       text-align: center;
-      margin-top: 20%;
+      margin-top: 5%;
       text-transform: uppercase;
       letter-spacing: 20%;
-      font-size: 50%;
+      font-size: 140%;
       font-weight: lighter; }
-    @media screen and (min-width: 500px) {
-      .topbuttonsholder .skateboards {
-        color: white;
-        text-align: center;
-        margin-top: 20%;
-        text-transform: uppercase;
-        letter-spacing: 20%;
-        font-size: 100%;
-        font-weight: lighter; } }
   .topbuttonsholder .skateboards:hover {
     background-color: #932024; }
   .topbuttonsholder .boarddesign {
-    width: calc(25% - 7.5px);
     height: 50px;
-    float: left;
     color: blue;
     margin-left: 10px;
-    background-color: #B4292E; }
+    float: left;
+    width: calc(50% - 5px);
+    background-color: #B4292E;
+    margin-left: 0; }
+    @media screen and (min-width: 918px) {
+      .topbuttonsholder .boarddesign {
+        width: calc(25% - 7.5px); } }
+    @media screen and (max-width: 454px) {
+      .topbuttonsholder .boarddesign span {
+        display: none; } }
+    @media screen and (min-width: 918px) {
+      .topbuttonsholder .boarddesign {
+        margin-left: 10px; } }
     .topbuttonsholder .boarddesign .boarddesignbutton {
       color: white;
       text-align: center;
@@ -148,12 +160,18 @@ body {
   .topbuttonsholder .boarddesign:hover {
     background-color: #932024; }
   .topbuttonsholder .contactus {
-    width: calc(25% - 7.5px);
     height: 50px;
-    float: left;
     color: blue;
     margin-left: 10px;
+    float: left;
+    width: calc(50% - 5px);
     background-color: #B4292E; }
+    @media screen and (min-width: 918px) {
+      .topbuttonsholder .contactus {
+        width: calc(25% - 7.5px); } }
+    @media screen and (max-width: 454px) {
+      .topbuttonsholder .contactus span {
+        display: none; } }
     .topbuttonsholder .contactus .contactustopbutton {
       color: white;
       text-align: center;
