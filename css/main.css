@@ -227,7 +227,7 @@ body {
 
 .skatefaceholder {
   width: 100%;
-  height: 800px;
+  height: 500px;
   border: 2px solid none; }
 
 .lance {
@@ -328,6 +328,93 @@ body {
     margin-left: .5%;
     margin-top: -260px;
     background-image: url("./assets/sk8er-2.png"); } }
+
+.skateboards {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  margin-bottom: 20px;
+  overflow-y: scroll; }
+  .skateboards .one {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url("./assets/sk8-3.png");
+    margin-left: 35px; }
+  .skateboards .two {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url("./assets/sk8-4.png");
+    margin-left: 35px; }
+  .skateboards .three {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url("./assets/sk8-5.png");
+    margin-left: 35px; }
+  .skateboards .four {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url("./assets/sk8-6.png");
+    margin-left: 35px; }
+  .skateboards .five {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url("./assets/sk8-7.png");
+    margin-left: 35px; }
+  .skateboards .six {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url("./assets/sk8-8.png");
+    margin-left: 35px; }
+  .skateboards .seven {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url("./assets/sk8-9.png");
+    margin-left: 35px; }
+  .skateboards .eight {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url("./assets/sk8-10.png");
+    margin-left: 35px; }
+  .skateboards .nine {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url("./assets/sk8-2.png");
+    margin-left: 35px; }
+  .skateboards .ten {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url("./assets/sk8-1.png");
+    margin-left: 35px; }
 
 .clearfix {
   overflow: hidden;
