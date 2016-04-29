@@ -17,6 +17,7 @@
     margin-left: 35px;
   }
 
+
   .one {
     margin-top: 14px;
     margin-left: 20px;
@@ -25,6 +26,7 @@
     float: left;
     background-image: url('./assets/sk8-3.png');
     @include skateboards;
+    cursor: pointer;
   }
 
   .two {
@@ -35,6 +37,7 @@
     float: left;
     background-image: url('./assets/sk8-4.png');
     @include skateboards;
+    cursor: pointer;
   }
 
   .three {
@@ -45,6 +48,7 @@
     float: left;
     background-image: url('./assets/sk8-5.png');
     @include skateboards;
+    cursor: pointer;
   }
 
   .four {
@@ -55,6 +59,7 @@
     float: left;
     background-image: url('./assets/sk8-6.png');
     @include skateboards;
+    cursor: pointer;
   }
 
   .five {
@@ -65,6 +70,7 @@
     float: left;
     background-image: url('./assets/sk8-7.png');
     @include skateboards;
+    cursor: pointer;
   }
 
   .six {
@@ -75,6 +81,7 @@
     float: left;
     background-image: url('./assets/sk8-8.png');
     @include skateboards;
+    cursor: pointer;
   }
 
   .seven {
@@ -85,7 +92,9 @@
     float: left;
     background-image: url('./assets/sk8-9.png');
     @include skateboards;
+    cursor: pointer;
   }
+
 
   .eight {
     margin-top: 14px;
@@ -105,6 +114,7 @@
     float: left;
     background-image: url('./assets/sk8-2.png');
     @include skateboards;
+    cursor: pointer;
   }
 
   .ten {
@@ -115,5 +125,6 @@
     float: left;
     background-image: url('./assets/sk8-1.png');
     @include skateboards;
+    cursor: pointer;
   }
 }
