@@ -1,0 +1,36 @@
+.contactinfo {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  margin-bottom: 20px;
+
+  .leftbox {
+    padding-left: 20px;
+    width: calc(50% - 40px);
+    height: 300px;
+    float: left;
+    letter-spacing: 1px;
+
+    .bottomtitle {
+      color: #6F6F6D;
+    }
+
+    .bottomparagraph {
+      color: #7F7F7F;
+    }
+
+    .bottomsocialmedia {
+      width: 40%;
+      height: 40px;
+
+    }
+  }
+
+  .rightbox {
+    padding-left: 20px;
+    width: calc(50% - 30px);
+    height: 300px;
+    float: right;
+    background-color: black;
+  }
+}
