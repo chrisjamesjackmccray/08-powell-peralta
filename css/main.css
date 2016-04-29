@@ -339,10 +339,15 @@ body {
 
 .skateboards {
   width: 100%;
-  height: 300px;
+  height: 840px;
   background-color: white;
-  margin-bottom: 20px;
-  overflow-y: scroll; }
+  margin-bottom: 20px; }
+  @media screen and (min-width: 485px) {
+    .skateboards {
+      height: 565px; } }
+  @media screen and (min-width: 970px) {
+    .skateboards {
+      height: 300px; } }
   .skateboards .one {
     margin-top: 14px;
     margin-left: 20px;
@@ -426,9 +431,27 @@ body {
 
 .contactinfo {
   width: 100%;
-  height: 300px;
+  height: 420px;
   background-color: white;
   margin-bottom: 20px; }
+  @media screen and (min-width: 432px) {
+    .contactinfo {
+      height: 400px; } }
+  @media screen and (min-width: 463px) {
+    .contactinfo {
+      height: 380px; } }
+  @media screen and (min-width: 486px) {
+    .contactinfo {
+      height: 360px; } }
+  @media screen and (min-width: 498px) {
+    .contactinfo {
+      height: 340px; } }
+  @media screen and (min-width: 501px) {
+    .contactinfo {
+      height: 320px; } }
+  @media screen and (min-width: 613px) {
+    .contactinfo {
+      height: 300px; } }
   .contactinfo .leftbox {
     padding-left: 20px;
     width: calc(50% - 40px);
@@ -440,30 +463,34 @@ body {
     .contactinfo .leftbox .bottomparagraph {
       color: #7F7F7F; }
     .contactinfo .leftbox .bottomsocialmedia {
-      width: 40%;
+      width: 120%;
       height: 40px; }
       .contactinfo .leftbox .bottomsocialmedia .bottomfacebook {
         width: 40px;
         height: 40px;
         float: left;
+        margin-bottom: 5px;
         margin-left: 5px;
         background-image: url("http://road.renthal.com/shop/image/button_facebook.jpg"); }
       .contactinfo .leftbox .bottomsocialmedia .bottomrss {
         width: 40px;
         height: 40px;
         float: left;
+        margin-bottom: 5px;
         margin-left: 5px;
         background-image: url("http://portal.isonas.com/files/rss_icon.png"); }
       .contactinfo .leftbox .bottomsocialmedia .bottomtwitter {
         width: 40px;
         height: 40px;
         float: left;
+        margin-bottom: 5px;
         margin-left: 5px;
         background-image: url("http://www.plequip.com/images/twitter-icon.jpg"); }
       .contactinfo .leftbox .bottomsocialmedia .bottomyoutube {
         width: 40px;
         height: 40px;
         float: left;
+        margin-bottom: 5px;
         margin-left: 5px;
         background-image: url("https://llc.ou.edu/media/images/SocialMedia/Footer/youtubeNormal.png"); }
   .contactinfo .rightbox {
@@ -472,28 +499,46 @@ body {
     height: 300px;
     float: right;
     background-color: white; }
+    @media screen and (min-width: 432px) {
+      .contactinfo .rightbox {
+        height: 400px; } }
+    @media screen and (min-width: 463px) {
+      .contactinfo .rightbox {
+        height: 380px; } }
+    @media screen and (min-width: 486px) {
+      .contactinfo .rightbox {
+        height: 360px; } }
+    @media screen and (min-width: 498px) {
+      .contactinfo .rightbox {
+        height: 340px; } }
+    @media screen and (min-width: 501px) {
+      .contactinfo .rightbox {
+        height: 320px; } }
+    @media screen and (min-width: 613px) {
+      .contactinfo .rightbox {
+        height: 300px; } }
     .contactinfo .rightbox .name {
       margin-top: 20px;
       padding-left: 10px;
-      width: 350px;
+      width: 72.5%;
       height: 30px; }
     .contactinfo .rightbox .email {
       margin-top: 20px;
       padding-left: 10px;
-      width: 350px;
+      width: 72.5%;
       height: 30px; }
     .contactinfo .rightbox .yourmessage {
       margin-top: 20px;
       padding-left: 10px;
-      width: 350px;
+      width: 72.5%;
       height: 100px; }
     .contactinfo .rightbox .bottombutton {
       float: right;
       margin-top: 10px;
-      margin-right: 117px;
+      margin-right: 24.7%;
       color: white;
       background-color: #B4292E;
-      width: 170px;
+      width: 40%;
       height: 30px;
       border: none;
       cursor: pointer; }
