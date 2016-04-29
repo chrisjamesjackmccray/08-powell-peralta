@@ -242,7 +242,13 @@ body {
   margin-right: 1%; }
   .lance .lancetext {
     color: white;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Coda', cursive;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;
+    margin: 70px 0 0 0; }
   @media screen and (min-width: 780px) {
     .lance {
       float: left;
@@ -259,12 +265,32 @@ body {
   margin-bottom: 10px; }
   .rodney .rodneytext {
     color: white;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Coda', cursive;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;
+    margin: 80px 0 0 0; }
   @media screen and (min-width: 780px) {
     .rodney {
       float: left;
       width: calc(33.33% - 3px);
       border: 5px solid white; } }
+
+.steve .stevetext {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Coda', cursive;
+  letter-spacing: 3px;
+  font-size: 50px;
+  text-align: center;
+  margin: 80px 0 0 0;
+  display: none; }
+  @media screen and (min-width: 780px) {
+    .steve .stevetext {
+      display: block; } }
 
 @media screen and (min-width: 780px) {
   .steve {
@@ -274,10 +300,21 @@ body {
     width: 68.33%;
     border: 5px solid white;
     background-position: 80% 65%;
-    background-image: url("./assets/sk8er-1.png"); }
-    .steve .stevetext {
-      color: white;
-      text-transform: uppercase; } }
+    background-image: url("./assets/sk8er-1.png"); } }
+
+.tommy .tommytext {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: 'Coda', cursive;
+  letter-spacing: 3px;
+  font-size: 45px;
+  text-align: center;
+  margin: 180px 0 0 0;
+  display: none; }
+  @media screen and (min-width: 780px) {
+    .tommy .tommytext {
+      display: block; } }
 
 @media screen and (min-width: 780px) {
   .tommy {
@@ -290,14 +327,7 @@ body {
     border: 5px solid white;
     margin-left: .5%;
     margin-top: -260px;
-    background-image: url("./assets/sk8er-2.png"); }
-    .tommy .tommytext {
-      color: white;
-      text-transform: uppercase;
-      font-weight: 900;
-      font-family: 'Coda', cursive;
-      letter-spacing: 3px;
-      font-size: 2rem; } }
+    background-image: url("./assets/sk8er-2.png"); } }
 
 .clearfix {
   overflow: hidden;
