@@ -23,6 +23,42 @@
       width: 40%;
       height: 40px;
 
+      @mixin bottomsocial {
+        margin-left: 5px;
+      }
+
+      .bottomfacebook {
+        width: 40px;
+        height: 40px;
+        float: left;
+        @include bottomsocial;
+        background-image: url('http://road.renthal.com/shop/image/button_facebook.jpg');
+      }
+
+      .bottomrss {
+        width: 40px;
+        height: 40px;
+        float: left;
+        @include bottomsocial;
+        background-image: url('http://portal.isonas.com/files/rss_icon.png');
+      }
+
+      .bottomtwitter {
+        width: 40px;
+        height: 40px;
+        float: left;
+        @include bottomsocial;
+        background-image: url('http://www.plequip.com/images/twitter-icon.jpg');
+      }
+
+      .bottomyoutube {
+        width: 40px;
+        height: 40px;
+        float: left;
+        @include bottomsocial;
+        background-image: url('https://llc.ou.edu/media/images/SocialMedia/Footer/youtubeNormal.png');
+      }
+
     }
   }
 
@@ -31,6 +67,6 @@
     width: calc(50% - 30px);
     height: 300px;
     float: right;
-    background-color: black;
+    background-color: white;
   }
 }

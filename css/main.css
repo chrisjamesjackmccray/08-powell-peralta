@@ -434,12 +434,36 @@ body {
     .contactinfo .leftbox .bottomsocialmedia {
       width: 40%;
       height: 40px; }
+      .contactinfo .leftbox .bottomsocialmedia .bottomfacebook {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-left: 5px;
+        background-image: url("http://road.renthal.com/shop/image/button_facebook.jpg"); }
+      .contactinfo .leftbox .bottomsocialmedia .bottomrss {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-left: 5px;
+        background-image: url("http://portal.isonas.com/files/rss_icon.png"); }
+      .contactinfo .leftbox .bottomsocialmedia .bottomtwitter {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-left: 5px;
+        background-image: url("http://www.plequip.com/images/twitter-icon.jpg"); }
+      .contactinfo .leftbox .bottomsocialmedia .bottomyoutube {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-left: 5px;
+        background-image: url("https://llc.ou.edu/media/images/SocialMedia/Footer/youtubeNormal.png"); }
   .contactinfo .rightbox {
     padding-left: 20px;
     width: calc(50% - 30px);
     height: 300px;
     float: right;
-    background-color: black; }
+    background-color: white; }
 
 .clearfix {
   overflow: hidden;
