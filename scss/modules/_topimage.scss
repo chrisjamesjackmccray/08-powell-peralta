@@ -20,9 +20,17 @@
     background-color: #B4292E;
   }
 
+  .sk8tnews:hover {
+    background-color: #932024;
+  }
+
   .skateboards {
     @include allbuttons;
     background-color: #B4292E;
+  }
+
+  .skateboards:hover {
+    background-color: #932024;
   }
 
   .boarddesign {
@@ -30,9 +38,17 @@
     background-color: #B4292E;
   }
 
+  .boarddesign:hover {
+    background-color: #932024;
+  }
+
   .contactus {
     @include allbuttons;
     background-color: #B4292E;
+  }
+
+  .contactus:hover {
+    background-color: #932024;
   }
 }
 

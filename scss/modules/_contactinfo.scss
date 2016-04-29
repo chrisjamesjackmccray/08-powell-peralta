@@ -68,5 +68,41 @@
     height: 300px;
     float: right;
     background-color: white;
+
+    .name {
+      margin-top: 20px;
+      padding-left: 10px;
+      width: 350px;
+      height: 30px;
+    }
+
+    .email {
+      margin-top: 20px;
+      padding-left: 10px;
+      width: 350px;
+      height: 30px;
+    }
+
+    .yourmessage {
+      margin-top: 20px;
+      padding-left: 10px;
+      width: 350px;
+      height: 100px;
+    }
+
+    .bottombutton {
+      float: right;
+      margin-top: 10px;
+      margin-right: 117px;
+      color: white;
+      background-color: #B4292E;
+      width: 170px;
+      height: 30px;
+      border: none;
+      cursor: pointer;
+    }
+    .bottombutton:hover {
+      background-color: #932024;
+    }
   }
 }

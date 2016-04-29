@@ -94,6 +94,8 @@ body {
     margin-left: 10px;
     margin-left: 0;
     background-color: #B4292E; }
+  .topbuttonsholder .sk8tnews:hover {
+    background-color: #932024; }
   .topbuttonsholder .skateboards {
     width: calc(25% - 7.5px);
     height: 50px;
@@ -101,6 +103,8 @@ body {
     color: blue;
     margin-left: 10px;
     background-color: #B4292E; }
+  .topbuttonsholder .skateboards:hover {
+    background-color: #932024; }
   .topbuttonsholder .boarddesign {
     width: calc(25% - 7.5px);
     height: 50px;
@@ -108,6 +112,8 @@ body {
     color: blue;
     margin-left: 10px;
     background-color: #B4292E; }
+  .topbuttonsholder .boarddesign:hover {
+    background-color: #932024; }
   .topbuttonsholder .contactus {
     width: calc(25% - 7.5px);
     height: 50px;
@@ -115,6 +121,8 @@ body {
     color: blue;
     margin-left: 10px;
     background-color: #B4292E; }
+  .topbuttonsholder .contactus:hover {
+    background-color: #932024; }
 
 .topimage {
   margin-top: 20px;
@@ -464,6 +472,33 @@ body {
     height: 300px;
     float: right;
     background-color: white; }
+    .contactinfo .rightbox .name {
+      margin-top: 20px;
+      padding-left: 10px;
+      width: 350px;
+      height: 30px; }
+    .contactinfo .rightbox .email {
+      margin-top: 20px;
+      padding-left: 10px;
+      width: 350px;
+      height: 30px; }
+    .contactinfo .rightbox .yourmessage {
+      margin-top: 20px;
+      padding-left: 10px;
+      width: 350px;
+      height: 100px; }
+    .contactinfo .rightbox .bottombutton {
+      float: right;
+      margin-top: 10px;
+      margin-right: 117px;
+      color: white;
+      background-color: #B4292E;
+      width: 170px;
+      height: 30px;
+      border: none;
+      cursor: pointer; }
+    .contactinfo .rightbox .bottombutton:hover {
+      background-color: #932024; }
 
 .clearfix {
   overflow: hidden;
