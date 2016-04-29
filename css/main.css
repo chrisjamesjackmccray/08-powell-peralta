@@ -94,6 +94,14 @@ body {
     margin-left: 10px;
     margin-left: 0;
     background-color: #B4292E; }
+    .topbuttonsholder .sk8tnews .skatenews {
+      color: white;
+      text-align: center;
+      margin-top: 4%;
+      text-transform: uppercase;
+      letter-spacing: 20%;
+      font-size: 150%;
+      font-weight: lighter; }
   .topbuttonsholder .sk8tnews:hover {
     background-color: #932024; }
   .topbuttonsholder .skateboards {
@@ -103,6 +111,23 @@ body {
     color: blue;
     margin-left: 10px;
     background-color: #B4292E; }
+    .topbuttonsholder .skateboards .skateboardtopbutton {
+      color: white;
+      text-align: center;
+      margin-top: 20%;
+      text-transform: uppercase;
+      letter-spacing: 20%;
+      font-size: 50%;
+      font-weight: lighter; }
+    @media screen and (min-width: 500px) {
+      .topbuttonsholder .skateboards {
+        color: white;
+        text-align: center;
+        margin-top: 20%;
+        text-transform: uppercase;
+        letter-spacing: 20%;
+        font-size: 100%;
+        font-weight: lighter; } }
   .topbuttonsholder .skateboards:hover {
     background-color: #932024; }
   .topbuttonsholder .boarddesign {
@@ -112,6 +137,14 @@ body {
     color: blue;
     margin-left: 10px;
     background-color: #B4292E; }
+    .topbuttonsholder .boarddesign .boarddesignbutton {
+      color: white;
+      text-align: center;
+      margin-top: 5%;
+      text-transform: uppercase;
+      letter-spacing: 20%;
+      font-size: 140%;
+      font-weight: lighter; }
   .topbuttonsholder .boarddesign:hover {
     background-color: #932024; }
   .topbuttonsholder .contactus {
@@ -121,6 +154,14 @@ body {
     color: blue;
     margin-left: 10px;
     background-color: #B4292E; }
+    .topbuttonsholder .contactus .contactustopbutton {
+      color: white;
+      text-align: center;
+      margin-top: 5%;
+      text-transform: uppercase;
+      letter-spacing: 20%;
+      font-size: 140%;
+      font-weight: lighter; }
   .topbuttonsholder .contactus:hover {
     background-color: #932024; }
 
