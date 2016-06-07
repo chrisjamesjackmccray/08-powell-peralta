@@ -1,0 +1,123 @@
+.checkboxes {
+  margin: 0 auto;
+  padding-top: -10;
+  width: 80px;
+  height: 20px;
+}
+
+.phonediv {
+  padding-top: 0;
+  margin-top: 20px;
+  width: calc(100% - 40px);
+  height: 320px;
+  background-color: white;
+  padding: 20px;
+  overflow-y: scroll;
+
+  .boxonehead {
+    color: #676863;
+
+  }
+
+  .boxonedate {
+    color: #CCCCCC;
+  }
+
+  .boxonedescription {
+    color: #989898;
+
+  }
+
+
+  .readmoretony {
+    color: #B02A34;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+  }
+
+
+  @media screen and (min-width: 780px) {
+    width: calc(33.3% - 46px);
+    float: left;
+    margin-right: 9px;
+  }
+}
+
+.phonedivtwo {
+  padding-top: 0;
+  margin-top: 20px;
+  width: calc(100% - 40px);
+  height: 335px;
+  background-color: white;
+  padding: 20px;
+  overflow-y: scroll;
+
+  .boxtwohead {
+    color: #676863;
+
+  }
+
+  .boxtwodate {
+    color: #CCCCCC;
+  }
+
+  .boxtwodescription {
+    color: #989898;
+
+  }
+
+  .readmorerodney {
+    margin-top: 0;
+    color: #B02A34;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 780px) {
+    width: calc(33.3% - 46px);
+    height: 320px;
+    float: left;
+    margin-right: 9px;
+  }
+}
+
+.phonedivthree {
+  padding-top: 0;
+  margin-top: 20px;
+  width: calc(100% - 40px);
+  height: 305px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow-y: scroll;
+
+  .boxthreehead {
+    color: #676863;
+
+  }
+
+  .boxthreedate {
+    color: #CCCCCC;
+  }
+
+  .boxthreedescription {
+    color: #989898;
+
+  }
+
+  .readmoreray {
+    color: #B02A34;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 780px) {
+    height: 320px;
+    width: calc(33.3% - 46px);
+    float: left;
+  }
+
+}

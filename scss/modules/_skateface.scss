@@ -1,0 +1,128 @@
+.skatefaceholder {
+  width: 100%;
+  height: 500px;
+  border: 2px solid none;
+}
+
+.lance {
+  width: 100%;
+  height: 240px;
+  background-image: url('./assets/sk8er-4.png');
+  background-repeat: no-repeat;
+  background-position: 37% 22%;
+  border: 5px solid none;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 1%;
+  cursor: pointer;
+
+  .lancetext {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Coda', cursive;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;
+    margin: 70px 0 0 0;
+  }
+
+  @media screen and (min-width: 780px) {
+    float: left;
+    width: 33.33%;
+    background-position: 80% 22%;
+    border: 5px solid white;
+  }
+}
+
+.rodney {
+  width: 100%;
+  height: 240px;
+  background-image: url('./assets/sk8er-3.png');
+  background-repeat: no-repeat;
+  background-position: 37% 22%;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  .rodneytext {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Coda', cursive;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;
+    margin: 80px 0 0 0;
+  }
+
+  @media screen and (min-width: 780px) {
+    float: left;
+    width: calc(33.33% - 3px);
+    border: 5px solid white;
+  }
+}
+
+.steve {
+  cursor: pointer;
+
+  .stevetext {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Coda', cursive;
+    letter-spacing: 3px;
+    font-size: 50px;
+    text-align: center;
+    margin: 80px 0 0 0;
+    display: none;
+
+    @media screen and (min-width: 780px) {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 780px) {
+    background-repeat: no-repeat;
+    float: left;
+    height: 204px;
+    width: 68.33%;
+    border: 5px solid white;
+    background-position: 80% 65%;
+    background-image: url('./assets/sk8er-1.png');
+
+  }
+}
+
+.tommy {
+  cursor: pointer;
+
+  .tommytext {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Coda', cursive;
+    letter-spacing: 3px;
+    font-size: 45px;
+    text-align: center;
+    margin: 180px 0 0 0;
+    display: none;
+
+    @media screen and (min-width: 780px) {
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 780px) {
+    margin: 0 0 0 10px;
+    background-repeat: no-repeat;
+    float: right;
+    width: 28.33%;
+    height: 464px;
+    background-position: 80% 22%;
+    border: 5px solid white;
+    margin-left: .5%;
+    margin-top: -260px;
+    background-image: url('./assets/sk8er-2.png');
+
+  }
+}

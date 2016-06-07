@@ -1,0 +1,130 @@
+.skateboards {
+  width: 100%;
+  height: 840px;
+  background-color: white;
+  margin-bottom: 20px;
+  // overflow-y: scroll;
+
+  @media screen and (min-width: 485px) {
+    height: 565px;
+  }
+
+  @media screen and (min-width: 970px) {
+    height: 300px;
+  }
+
+  @mixin skateboards {
+    margin-left: 35px;
+  }
+
+
+  .one {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url('./assets/sk8-3.png');
+    @include skateboards;
+    cursor: pointer;
+  }
+
+  .two {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url('./assets/sk8-4.png');
+    @include skateboards;
+    cursor: pointer;
+  }
+
+  .three {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url('./assets/sk8-5.png');
+    @include skateboards;
+    cursor: pointer;
+  }
+
+  .four {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url('./assets/sk8-6.png');
+    @include skateboards;
+    cursor: pointer;
+  }
+
+  .five {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url('./assets/sk8-7.png');
+    @include skateboards;
+    cursor: pointer;
+  }
+
+  .six {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url('./assets/sk8-8.png');
+    @include skateboards;
+    cursor: pointer;
+  }
+
+  .seven {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url('./assets/sk8-9.png');
+    @include skateboards;
+    cursor: pointer;
+  }
+
+
+  .eight {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url('./assets/sk8-10.png');
+    @include skateboards;
+  }
+
+  .nine {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url('./assets/sk8-2.png');
+    @include skateboards;
+    cursor: pointer;
+  }
+
+  .ten {
+    margin-top: 14px;
+    margin-left: 20px;
+    width: 62px;
+    height: 260px;
+    float: left;
+    background-image: url('./assets/sk8-1.png');
+    @include skateboards;
+    cursor: pointer;
+  }
+}
