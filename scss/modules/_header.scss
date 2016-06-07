@@ -67,6 +67,12 @@ body {
     font-size: 2rem;
   }
 
+  @media screen and (max-width: 1025px) {
+    .fourdots {
+      display: none;
+    }
+  }
+
   .facebook {
     float: right;
     width: 40px;

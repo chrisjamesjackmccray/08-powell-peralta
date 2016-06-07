@@ -203,6 +203,9 @@ body {
     height: 20px;
     color: white;
     font-size: 2rem; }
+  @media screen and (max-width: 1025px) {
+    .socialmedia .fourdots {
+      display: none; } }
   .socialmedia .facebook {
     float: right;
     width: 40px;
